@@ -25,10 +25,10 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.Objects;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -80,6 +80,7 @@ public class firstFragment extends Fragment {
         return binding.getRoot();
     }
 
+    @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -126,7 +127,7 @@ public class firstFragment extends Fragment {
 
     public List<addrObj> addAddrList(){
         List<Address> addresses;
-        Double lat,longV;
+        double lat,longV;
         Geocoder geocoder = new Geocoder(requireActivity(), Locale.getDefault());
         List<addrObj> allAddrs = new ArrayList<>();
         try {
@@ -151,15 +152,15 @@ public class firstFragment extends Fragment {
     }
 
     public String loadJSONFromAsset() throws IOException {
-        String json = null;
-        InputStream is = null;
+        String json;
+        InputStream is;
         try {
             is = requireActivity().getAssets().open("coordinates.JSON");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-            json = new String(buffer, "UTF-8");
+            json = new String(buffer, StandardCharsets.UTF_8);
         } catch (IOException ex) {
             ex.printStackTrace();
             return null;

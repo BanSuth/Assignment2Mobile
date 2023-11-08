@@ -1,7 +1,5 @@
 package com.example.assign2mobile;
 
-import android.content.ContentValues;
-import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
@@ -10,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import android.provider.MediaStore;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,6 +58,7 @@ public class thirdFragment extends Fragment {
         return binding.getRoot();
     }
 
+    @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         addrDB = new databaseHelper(getActivity());
@@ -78,18 +77,16 @@ public class thirdFragment extends Fragment {
         binding.deleteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // NavHostFragment.findNavController(secondFragment.this).navigate(R.id.secondTofirst);
                 deleteAddress(uAddr);
-            };
+            }
         });
 
         binding.calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // NavHostFragment.findNavController(secondFragment.this).navigate(R.id.secondTofirst);
                 if(lati.getText().length() != 0 && longi.getText().length() != 0){
-                    Double latI = Double.valueOf(lati.getText().toString().trim());
-                    Double longI= Double.valueOf(longi.getText().toString().trim());
+                    double latI = Double.parseDouble(lati.getText().toString().trim());
+                    double longI= Double.parseDouble(longi.getText().toString().trim());
                     String address = calculateAddr(latI,longI);
 
                     addrDisp.setText("The Address for those coordinates are: "+address);
@@ -106,10 +103,10 @@ public class thirdFragment extends Fragment {
         binding.updateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // NavHostFragment.findNavController(secondFragment.this).navigate(R.id.secondTofirst);
+
 
                 updateAddress(uAddr);
-            };
+            }
         });
         binding.noteBackbutton.setOnClickListener(e-> NavHostFragment.findNavController(thirdFragment.this).navigate(R.id.thirdTofirst));
     }
@@ -121,9 +118,8 @@ public class thirdFragment extends Fragment {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        String address = addresses.get(0).getAddressLine(0).trim();
 
-        return address;
+        return addresses.get(0).getAddressLine(0).trim();
     }
     private void deleteAddress(addrObj uAddr) {
         boolean result = addrDB.deleteAddr(uAddr);
@@ -137,11 +133,11 @@ public class thirdFragment extends Fragment {
 
     private void updateAddress(addrObj uAddr) {
         if(lati.getText().length() != 0 && longi.getText().length() != 0){
-            Double latI = Double.valueOf(lati.getText().toString().trim());
-            Double longInp= Double.valueOf(longi.getText().toString().trim());
+            double latI = Double.parseDouble(lati.getText().toString().trim());
+            double longInp= Double.parseDouble(longi.getText().toString().trim());
             String addressI = calculateAddr(latI,longInp);
 
-            uAddr.setLatitude(latI);;
+            uAddr.setLatitude(latI);
             uAddr.setLongitude(longInp);
             uAddr.setAddress(addressI);
             boolean result = addrDB.updateAddr(uAddr);
