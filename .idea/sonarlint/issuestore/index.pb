@@ -1,0 +1,19 @@
+
+m
+=app/src/main/java/com/example/assign2mobile/MainActivity.java,8\b\8bd92f2374eff9d46006e5576cab0a1ffb1fb2ab
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+n
+>app/src/main/java/com/example/assign2mobile/firstFragment.java,f\f\ff49bcb6647c0f72cd251c2365530fa1a85378eb
+o
+?app/src/main/java/com/example/assign2mobile/databaseHelper.java,5\6\5692f389f41b5543c962ee865104bf658f1e5210
+h
+8app/src/main/java/com/example/assign2mobile/addrObj.java,d\c\dc59ff0127343f0f36a54f3a8ddcbe3e93f38e2b
+h
+8app/src/main/java/com/example/assign2mobile/Adapter.java,1\e\1eb46f4d5ffa1da0a48aa4ea65130dee19742b29
+o
+?app/src/main/java/com/example/assign2mobile/secondFragment.java,5\0\503fdf39638cd8248f67579f7f78242912740484
+n
+>app/src/main/java/com/example/assign2mobile/thirdFragment.java,4\2\42d3924e8c4a0053dfd68db7922b440575e68d85
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e

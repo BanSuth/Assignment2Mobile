@@ -1,0 +1,30 @@
+
+g	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ò®Ùåº1
+J
+java:S1604N"(Make this anonymous inner class a lambda(ÖÍ¾Óÿÿÿÿÿ8Ô®Ùåº1
+J
+java:S1604V"(Make this anonymous inner class a lambda(—Ê’¡ùÿÿÿÿ8Ô®Ùåº1
+J
+java:S1604j"(Make this anonymous inner class a lambda(Ù¬µ€øÿÿÿÿ8œÆİåº1
+
+java:S1488|"_Immediately return this expression instead of assigning it to the temporary variable "address".(Ÿßˆ¢üÿÿÿÿ8Õ®Ùåº1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶¤şÿÿÿÿ8Õ®Ùåº1
+@
+java:S1659!"#Declare "longi" on a separate line.(˜ÏØø8‚¯Ùåº1
+V
+java:S1172*"9Remove these unused method parameters "param1", "param2".(¤šóó8Š¯Ùåº1
+E
+java:S11853"(Remove this method to simply inherit it.(ßìê¯8¯Ùåº1
+W
+java:S1161?":Add the "@Override" annotation above this method signature(¼²Á÷8‘¯Ùåº1
+X	java:S125Q"<This block of commented-out lines of code should be removed.(Šø±8˜¯Ùåº1
+>
+java:S1116S"Remove this empty statement.(ôŸìúÿÿÿÿ8™¯Ùåº1
+X	java:S125Y"<This block of commented-out lines of code should be removed.(Šø±8š¯Ùåº1
+X	java:S125m"<This block of commented-out lines of code should be removed.(Šø±8åÇİåº1
+>
+java:S1116p"Remove this empty statement.(ôŸìúÿÿÿÿ8›¯Ùåº1
+Y
+java:S1874x"7Remove this use of "getFromLocation"; it is deprecated.(ÈºÌ¶ÿÿÿÿÿ8¯Ùåº1
+?
+java:S1116"Remove this empty statement.(—Å¡‹ÿÿÿÿÿ8«¯Ùåº1
