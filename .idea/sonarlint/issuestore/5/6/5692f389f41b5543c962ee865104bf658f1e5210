@@ -1,12 +1,10 @@
 
-
-java:S1319t"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Àœµü8‘ñİßº1
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(í…Ò8“ñİßº1
+’
+java:S1319r"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(†àİÈøÿÿÿÿ8‘ñİßº1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™¾Ñıÿÿÿÿ8“ñİßº1
 ^
-java:S1126:"AReplace this if-then-else statement by a single return statement.(´ÅÙ÷8ºñİßº1
+java:S1126K"AReplace this if-then-else statement by a single return statement.(´ÅÙ÷8½ñİßº1
 ^
-java:S1126N"AReplace this if-then-else statement by a single return statement.(´ÅÙ÷8½ñİßº1
-^
-java:S1126a"AReplace this if-then-else statement by a single return statement.(Õä…á8Âñİßº1
+java:S1126^"AReplace this if-then-else statement by a single return statement.(Õä…á8Âñİßº1
 c
-java:S1126m"AReplace this if-then-else statement by a single return statement.(ÿ’®ÿüÿÿÿÿ8Äñİßº1
+java:S1126k"AReplace this if-then-else statement by a single return statement.(ÿ’®ÿüÿÿÿÿ8Äñİßº1

@@ -1,17 +1,17 @@
 
-h	java:S112–"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8çé‰ãº1
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8çé‰ãº1
 E
-java:S1604e"(Make this anonymous inner class a lambda(½ˆãÜ8Ÿíºäº1
-i	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°êşá8êé‰ãº1
+java:S1604\"(Make this anonymous inner class a lambda(ÍñšŸ8Ÿíºäº1
+i	java:S101""MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°êşá8êé‰ãº1
 l
-java:S2095"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ãÙëúÿÿÿÿ8©ê‰ãº1
-[
-java:S11729"9Remove these unused method parameters "param1", "param2".(³Ò‡‹øÿÿÿÿ8³ê‰ãº1
+java:S2095–"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ãÙëúÿÿÿÿ8©ê‰ãº1
+V
+java:S11721"9Remove these unused method parameters "param1", "param2".(íËÒ¨8³ê‰ãº1
 E
-java:S1185G"(Remove this method to simply inherit it.(ßìê¯8¹ê‰ãº1
-F
-java:S1659‚"#Declare "longV" on a separate line.(Ñ´öËşÿÿÿÿ8é‚Ò÷º1
+java:S1185?"(Remove this method to simply inherit it.(ßìê¯8¹ê‰ãº1
+E
+java:S1659y"#Declare "longV" on a separate line.(Ñ´öËşÿÿÿÿ8é‚Ò÷º1
 U
-java:S1874"7Remove this use of "getFromLocation"; it is deprecated.(‹À¿8Âê‰ãº1
+java:S1874…"7Remove this use of "getFromLocation"; it is deprecated.(œëì¿8Âê‰ãº1
 m
-java:S2674¡"JCheck the return value of the "read" call to see how many bytes were read.(ë¥áïøÿÿÿÿ8Åê‰ãº1
+java:S2674™"JCheck the return value of the "read" call to see how many bytes were read.(ë¥áïøÿÿÿÿ8Åê‰ãº1

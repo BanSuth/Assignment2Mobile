@@ -1,8 +1,7 @@
 
 E
-java:S16048"(Make this anonymous inner class a lambda(ØÑä»8å½×åº1
+java:S16046"(Make this anonymous inner class a lambda(ê½×œ8å½×åº1
 /
 java:S2176"Rename this class.(ëâñ8³¾×åº1
-]	java:S125F"<This block of commented-out lines of code should be removed.(ŠÊ§–ÿÿÿÿÿ8Ï¾×åº1
-g
-java:S1659V"EDeclare "nContent" and all following declarations on a separate line.(ÆĞ„òıÿÿÿÿ8Ó¾×åº1
+C
+java:S1659O"!Declare "nID" on a separate line.(üÂˆ˜şÿÿÿÿ8ñ˜Œ»1

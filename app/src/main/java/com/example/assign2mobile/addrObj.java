@@ -1,19 +1,19 @@
 package com.example.assign2mobile;
 
-public class addrObj {
+public class addrObj { //this model object is used for store address data for the program.
     private int id;
     private String address;
     private Double latitude;
     private Double longitude;
 
-    public addrObj(int id, String address, Double latitude, Double longitude){
+    public addrObj(int id, String address, Double latitude, Double longitude){ //long constructor that includes id
         this.id = id;
         this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
     }
 
-    public addrObj(String address,Double latitude, Double longitude){
+    public addrObj(String address,Double latitude, Double longitude){ //constructor for when there is no id yet (before insertion into database)
         this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -21,7 +21,7 @@ public class addrObj {
 
     public int getId() {
         return id;
-    }
+    } //basic getter setter methods.
 
     public void setId(int id) {
         this.id = id;

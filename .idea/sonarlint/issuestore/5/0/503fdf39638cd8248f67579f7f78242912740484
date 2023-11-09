@@ -1,15 +1,15 @@
 
-g	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8é„Ù…»1
+g	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8é„Ù…»1
 J
-java:S1604>"(Make this anonymous inner class a lambda(—Ê’¡ùÿÿÿÿ8ë„Ù…»1
+java:S1604="(Make this anonymous inner class a lambda(×™Ş¹ÿÿÿÿÿ8ë„Ù…»1
 E
-java:S1604N"(Make this anonymous inner class a lambda(µöÊ™8í„Ù…»1
+java:S1604M"(Make this anonymous inner class a lambda(ºØ8í„Ù…»1
 n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•£©’úÿÿÿÿ8ï„Ù…»1
 E
-java:S1659"#Declare "longi" on a separate line.(ÚÔÎşÿÿÿÿ8Í¤Ù…»1
-[
-java:S1172#"9Remove these unused method parameters "param1", "param2".(à±ç½üÿÿÿÿ8Ô¤Ù…»1
+java:S1659"#Declare "longi" on a separate line.(•ÚÀÜøÿÿÿÿ8Í¤Ù…»1
+V
+java:S1172""9Remove these unused method parameters "param1", "param2".(·’Ä8Ô¤Ù…»1
 E
-java:S1185,"(Remove this method to simply inherit it.(ßìê¯8Û¤Ù…»1
+java:S1185+"(Remove this method to simply inherit it.(ßìê¯8Û¤Ù…»1
 Y
-java:S1874_"7Remove this use of "getFromLocation"; it is deprecated.(ÈºÌ¶ÿÿÿÿÿ8‡¥Ù…»1
+java:S1874^"7Remove this use of "getFromLocation"; it is deprecated.(ÈºÌ¶ÿÿÿÿÿ8‡¥Ù…»1

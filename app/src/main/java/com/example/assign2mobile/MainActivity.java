@@ -19,7 +19,7 @@ import java.io.InputStream;
 import java.util.jar.JarException;
 
 public class MainActivity extends AppCompatActivity {
-
+    //this activity is used to navigate between the fragments
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -2,4 +2,18 @@
     <string name="app_name">Assign2Mobile</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="noAddrtextText">No Addresses found</string>
+    <string name="main_page_header">Main Page</string>
+    <string name="second_header_text">Enter a latitude and longitude</string>
+    <string name="latFieldhint">Enter a Latitude</string>
+    <string name="longFieldhint">Enter a Longitude</string>
+    <string name="saveBtnText">Save Address</string>
+    <string name="calculateBtnText">Calculate Address</string>
+    <string name="latFieldText2">Enter a Latitude</string>
+    <string name="longFieldText2">Enter a Longitude</string>
+    <string name="updateBtnText">Update</string>
+    <string name="deleteBTNtext">Delete</string>
+    <string name="calculateBtnText2">Calculate Address</string>
+    <string name="latFieldHeader">Latitude</string>
+    <string name="longFieldHeader">Longitude</string>
 </resources>
